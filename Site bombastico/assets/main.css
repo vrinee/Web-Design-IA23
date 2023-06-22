@@ -14,42 +14,49 @@ html,body{
     background-color:#2d2a28;
     color: white;
 }
-
-/*menu*/
-
+/*-----------------------------------*/
 #menu{
-    position: fixed;
+    background-color: #393646;
+}
+/*topo do site*/
+div.front{
+    display: grid;
+    width: 99vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.front img{
     width: 100%;
-    height: 10vh;
-    font-size: 2em;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    top: 0;
-    background-color: #3e3632;
-    transition: 0.5s;
-
+    height: 100%;
 }
 
-nav :is(ul, li) {
-    list-style: none;
-    display: inline-block; 
-}
-
-nav > ul >li{
-    margin-right: 5vw;
-}
-
-nav img {
-    height: 7vh;
-    width: 7vh;
-    margin-right:2vw ;
-    margin-left: 2vw;
-}
-
-nav > ul >li > a{
-    color: white;
-    text-decoration: none;
+.front :nth-child(7){
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15vh;
+    font-style: italic;
+    -webkit-text-stroke: 0.1vh black;
+    position:absolute;
+    align-self: center;
+    justify-self: center;
+    grid: none;
 }
 /*-----------------------------------*/
+
+/*Article*/
+
+article :first-child{
+    background-color: #6D5D6E;
+    display: flex;
+    height: 40vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    font-size: 5vh;
+    font-style: italic;
+    padding-left: 10vw;
+    padding-right: 5vw;
+    padding-top: 2vh;
+}
+
+
 

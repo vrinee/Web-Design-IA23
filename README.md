@@ -20,8 +20,6 @@ meu repositório para coisas sobre a aula de web design do ifc
 
 |
 
-* habilitar transiçao somente para o movimento para cima no menu
-
 
 * adicionar conteudo nas paginas e começar as outras paginasz 
 
@@ -29,7 +27,7 @@ meu repositório para coisas sobre a aula de web design do ifc
 * colocar uma paleta de cores melhor e unica para cada página 
 
 
-* mudar o tamanho das coisas para min(x vw ou x vh) e max (x rem, x em  ou x px) 
+* mudar o tamanho das coisas para min(x vw ou x vh) e max (x rem, x em  ou x px) // na realidade o melhor seria clamp() porém ainda não usei já que no menu esta bom o bastante
 
 
 
@@ -53,3 +51,12 @@ meu repositório para coisas sobre a aula de web design do ifc
 
 
 * adicionar alguma forma de interabilidade e/ou joguinho dentro do site
+
+
+
+
+
+
+### /*--------Paletas--------*/
+
+* index: https://colorhunt.co/palette/3936464f45576d5d6ef4eee0
