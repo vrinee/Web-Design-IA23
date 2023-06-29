@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+div.genius {
+    border-radius: 50%;
+    border: 10px solid grey ;
+    background-color:black;
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+div.genius > *{
+    cursor: pointer;
+}
+div.genius > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+div.genius > :nth-child(1){
+    background-color: green;
+    border-top-left-radius:100%;
+}
+
+div.genius > :nth-child(1).on,
+div.genius > :nth-child(1):hover{
+    background-color: rgb(38, 173, 38) ;
+    filter: blur(12px);
+}
+
+div.genius > :nth-child(2){
+    background-color: blue;
+    border-top-right-radius: 100%;
+}
+
+div.genius > :nth-child(2).on,
+div.genius > :nth-child(2):hover{
+    background-color: rgb(68, 68, 255);
+    filter: blur(12px);
+}
+
+div.genius > :nth-child(3){
+    background-color: red;
+    border-bottom-left-radius: 100%;
+}
+
+div.genius > :nth-child(3).on,
+div.genius > :nth-child(3):hover{
+    background-color:rgb(240, 75, 75);
+    filter: blur(12px);
+}
+
+div.genius > :nth-child(4){
+    background-color:yellow;
+    border-bottom-right-radius: 100%;
+}
+div.genius > :nth-child(4).on,
+div.genius > :nth-child(4):hover{
+    background-color: rgb(196, 193, 32);
+    filter: blur(12px);
+}
+
+
+div.genius > div.pontuacao{
+    position: absolute;
+    border: 5px solid grey;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 2;
+    width: 50%;
+    height: 50%;
+    justify-self: center;
+    align-self: center;
+    color: azure;
+    font-size: 3rem;
+}
+
+.perdeu {
+    animation: infinite;
+    animation-name: alerta;
+    animation-duration: 1s;
+}
+
+.verde{
+    background-color: green;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.azul{
+    background-color: blue;
+}
+
+@keyframes alerta {
+    0%{
+        background-color: white;
+    }
+
+    50%{
+        background-color: red;
+    }
+
+    100%{
+        background-color: white;
+    }
+}

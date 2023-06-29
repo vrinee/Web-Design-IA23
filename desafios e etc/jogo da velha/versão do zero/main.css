@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+    
+
+div.caixa{
+    background-color:grey;
+    width: 80vmin;
+    height: 80vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.jogo{
+    background-color: white;
+    position: relative;
+    height: 80%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+h1{
+    flex: none;
+    position: absolute;
+    top: 0;
+}
+
+div.jogo > div{
+    background-color: grey;
+}
