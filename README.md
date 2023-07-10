@@ -21,18 +21,10 @@ meu repositório para coisas sobre a aula de web design do ifc
 |
 
 
-* adicionar conteudo nas paginas e começar as outras paginasz 
+* adicionar conteudo nas paginas e começar as outras paginas
 
 
 * colocar uma paleta de cores melhor e unica para cada página 
-
-
-* mudar o tamanho das coisas para min(x vw ou x vh) e max (x rem, x em  ou x px) // na realidade o melhor seria clamp() porém ainda não usei já que no menu esta bom o bastante
-
-
-
-
-
 
 ### /*--------ideias--------*/
 |
@@ -40,9 +32,6 @@ meu repositório para coisas sobre a aula de web design do ifc
 |
 
 |
-
-* colocar divs com sombra de forma com que pareçam cartas, que contenham ou conteúdo sobre o site e que se levantem quando o cursor passar por cima
-
 
 * cada página de cada banda ter uma paleta única
 
@@ -60,3 +49,12 @@ meu repositório para coisas sobre a aula de web design do ifc
 ### /*--------Paletas--------*/
 
 * index: https://colorhunt.co/palette/3936464f45576d5d6ef4eee0
+
+* splipknot: https://colorhunt.co/palette/2d132c801336c72c41ee4540
+
+* korn: https://colorhunt.co/palette/152a3829435c556e53d1d4c9
+
+* SOAD: https://colorhunt.co/palette/2d24245c3d2eb85c38e0c097
+
+* deftones: https://colorhunt.co/palette/04156211468fda1212eeeeee
+

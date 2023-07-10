@@ -12,11 +12,16 @@ html,body{
     padding: 0;
     margin: 0;
     background-color:#2d2a28;
-    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#F4EEE0;
+    text-shadow: 0.2rem 0.2rem 0.1rem black;
 }
 /*-----------------------------------*/
 #menu{
     background-color: #393646;
+}
+#menu ul > li > ul {
+    background-color:#2d2a28;
 }
 /*topo do site*/
 div.front{
@@ -33,7 +38,7 @@ div.front{
 
 .front :nth-child(7){
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15vh;
+    font-size: 5rem;
     font-style: italic;
     -webkit-text-stroke: 0.1vh black;
     position:absolute;
@@ -43,19 +48,133 @@ div.front{
 }
 /*-----------------------------------*/
 
-/*Article*/
+/*parte principal*/
 
-article :first-child{
+article#pq {
     background-color: #6D5D6E;
     display: flex;
-    height: 40vh;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    justify-content: center;
-    font-size: 5vh;
+    text-align: center;
+    font-size: 2rem;
     font-style: italic;
-    padding-left: 10vw;
-    padding-right: 5vw;
-    padding-top: 2vh;
+    padding: 2rem;
+}
+
+article#introducao{
+    background-color: #F4EEE0;
+    color:#393646;
+    font-size: 1.75rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+#introducao > p { 
+    text-shadow: none;
+}
+
+#introducao > * {
+    margin-top: 1rem;
+}
+
+article#bandas{
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+
+
+/*-----Cartas das bandas-----*/
+
+#bandas > * {
+    margin-top: 2rem
+}
+
+#bandas > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bandas > div > a {
+    text-decoration: none;
+    color: #F4EEE0;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    width: 16rem;
+    height: 24rem;
+    box-shadow: 0 0 2rem 1rem black;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem 0.5rem black
+}
+
+#bandas > div > :nth-child(1) > div{
+    background-color: #801336;
+}
+
+#bandas > div > :nth-child(2) > div{
+    background-color: #5C3D2E;
+}
+
+#bandas > div > :nth-child(3) > div{
+    background-color: #11468F;
+}
+
+#bandas > div > :nth-child(4) > div{
+    background-color: #29435C;
+}
+
+.card > img {
+    height: 100%;
+    width: 100%;
+}
+
+.card> div {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card > div > p {
+    font-size: 1rem;
+
+}
+
+/*-----------------------------------*/
+
+/*continuaçao da parte principal*/
+
+article#caracteristicas{
+    background-color: #4F4557;
+    text-align: center;
+    font-size: 1.75rem;
+    padding: 1rem;
+}
+
+#caracteristicas > * {
+    margin-top: 1rem;
+}
+
+article#historia{
+    background-color:#393646;
+    text-align: center;
+    font-size: 1.75rem;
+    padding: 1rem;
+}
+
+#historia > * {
+    margin-top: 1rem;
+}
+
+/*-----------------------------------*/
+
+footer {
+    text-align:center;
+    font-size: 2rem;
+    padding: 3rem;
 }
 
 
