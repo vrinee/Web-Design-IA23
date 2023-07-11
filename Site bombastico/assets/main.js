@@ -1,3 +1,6 @@
+
+/*menu desaparecer*/
+
 var prevScrollpos = window.scrollY;
 window.onscroll = function() {
   var currentScrollPos = window.scrollY;
@@ -8,3 +11,5 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+/*-----------------------------------*/
