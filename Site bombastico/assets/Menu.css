@@ -63,8 +63,19 @@ ul#submenu{
     width:20rem;
     overflow-y: scroll;
     display: inline;
-    border-radius: 0;
-    border-top-left-radius: 1rem;
+    border-radius: 1rem;
+    border-bottom-left-radius: 0;
+}
+
+#submenu::-webkit-scrollbar{
+    background-color: #EEEEEE;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+#submenu::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 1rem;
 }
 
 li:has(ul)::after {

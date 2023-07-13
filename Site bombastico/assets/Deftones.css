@@ -1,0 +1,185 @@
+html,body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color:#041562;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#EEEEEE;
+    text-shadow: 0.2rem 0.2rem 0.1rem black;
+    overflow-x: visible;
+}
+
+/*-----------------------------------*/
+
+#menu {
+    background-color: #11468F;
+}
+
+#menu ul > li > ul {
+    background-color: #041562;
+}
+
+ul#submenu {
+    background-color: #DA1212 !important;
+}
+
+/*topo do site*/
+
+div.front {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.front img {
+    width: 100%;
+    height: 100%;
+}
+
+.front :nth-child(7){
+    font-size: 5rem;
+    font-style: italic;
+    -webkit-text-stroke: black 0.05rem;
+    position: absolute;
+    grid: none;
+    align-self: center;
+    justify-self: center;
+}
+
+/*-----------------------------------*/
+
+/*parte principal*/
+
+article#pq{
+    background-color: #DA1212;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    padding: 2rem;
+}
+
+/*-----------------------------------*/
+
+/*audio player*/
+
+article#musica{
+    text-align: center;
+}
+
+#musica > h2,
+#musica > p {
+    position: relative;
+    left: -3rem;
+}
+div#musicas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#musicas > .audio {
+    font-size:0.75rem;
+    background-color: #11468F;
+    padding: 1rem;
+    border-radius: 5rem;
+    border: 0.5rem #041562 groove;
+}
+
+/*-----------------------------------*/
+
+/*continuação da parte principal*/
+
+article#introducao{
+    text-align: center;
+    background-color: #11468F;
+    padding: 2rem;
+    font-size: 1.75rem;
+}
+
+article#historia {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+article#historia > div {
+    padding: 2rem;
+}
+
+
+#linus {
+    background-color: #11468F;
+}
+
+#adrenaline {
+    background-color: #DA1212;
+}
+
+#atf {
+    background-color:  #EEEEEE;
+    color: #11468F;
+}
+
+#atf p {
+    text-shadow: none;
+}
+
+#pony {
+    background-color: #DA1212;
+}
+
+#deftones {
+    background-color: #11468F;
+}
+
+
+#chi {
+    background-color: #11468F;
+}
+
+#diamond {
+    background-color: #DA1212;
+}
+
+#koi {
+    background-color: #EEEEEE;
+    color: #11468F;
+}
+
+#koi p {
+    text-shadow: none;
+}
+
+#ohms {
+    background-color: #DA1212;
+}
+
+article#caracteristicas {
+    background-color: #11468F;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+ 
+#integrantes {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#integrantes > div {
+    display: flex;
+    justify-content: center;
+}
+
+/*-----------------------------------*/
+
+footer {
+    background-color: #11468F;
+    text-align:center;
+    font-size: 2rem;
+    padding: 3rem;
+}
