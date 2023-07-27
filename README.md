@@ -58,3 +58,5 @@ meu repositório para coisas sobre a aula de web design do ifc
 
 * deftones: https://colorhunt.co/palette/04156211468fda1212eeeeee
 
+* quiz: https://colorhunt.co/palette/0c134f1d267d5c469cd4adfc
+

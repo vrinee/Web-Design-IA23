@@ -12,6 +12,7 @@
     transition: 0.5s;
     transition-property: top;
     z-index: 10 ;
+    color: white;
 }
 
 nav{
@@ -22,7 +23,6 @@ nav :is(ul, li) {
     list-style: none;
     display: inline-block; 
 }
-
 nav > ul > li{
     margin-right: 2rem;
     position: relative;

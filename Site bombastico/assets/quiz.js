@@ -3,7 +3,7 @@ const alternativas = document.querySelector(".alternativas")
 
 
 async function main() {
-    const requisicao = await fetch("quiz.json")
+    const requisicao = await fetch("assets/quiz.json")
     const quiz = await requisicao.json
     
     
