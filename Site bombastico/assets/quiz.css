@@ -41,20 +41,22 @@ body{
 
 div#quiz{
     background-color: #5C469C;
-    height: 35rem;
+    height: 30rem;
     width: 55rem;
     display:flex;
     text-align: center;
     flex-direction: column;
+    border-radius: 1rem;
+    border: 0.5rem solid black;
 }
 
 #quiz > * {
     height: fit-content;
 }
-
-#quiz h1 {
+#quiz h2 {
     font-style: italic;
     text-decoration: underline;
+    margin-top: 2rem;
 }
 
 #quiz div.alternativas {
@@ -63,11 +65,12 @@ div#quiz{
     gap: 1rem;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: 1fr 1fr;
+    margin: 1rem;
     margin-top: 7rem;
 }
 
 .alternativas > button {
-    background-color:#0C134F;
+    background-image: linear-gradient( to bottom, #0C134F ,black);
     border-radius: 1rem;
     border: black solid 0.15rem;
     color: #D4ADFC;

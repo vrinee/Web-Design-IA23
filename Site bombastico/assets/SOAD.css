@@ -125,6 +125,7 @@ q {
 
 #sucesso {
     background-color: #E0C097;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
 #dourada {
@@ -145,6 +146,7 @@ q {
 
 #recomeco {
     background-color: #E0C097;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
  
 #integrantes {

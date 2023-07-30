@@ -1,37 +1,162 @@
 [
     {
-        "pergunta": "Quantos anos o professor Varela tem?",
-        "correta": 6 ,
+        "pergunta": "Qual foi a primeira banda que o Brian começou a escutar?",
+        "correta": 0 ,
         "alternativas": [
-            17,
-            25,
-            27,
-            30,
-            32,
-            33,
-            36,
-            37,
-            40,
-            57
+            "Slipknot",
+            "Mayhem",
+            "SOAD",
+            "Deftones",
+            "Rammstein",
+            "Korn",
+            "Gorepig",
+            "Kittie",
+            "Type O negative",
+            "Megadeth"
         ]
     },
     {
-        "pergunta": "Quem é o mais velho da IA23",
-        "correta": 3,
+        "pergunta": "Qual desses é outro nome para o Nu metal?",
+        "correta": 4,
         "alternativas":[
-            "Davi",
-            "Gustavo",
-            "Érika",
-            "Lívia",
-            "Arthur",
-            "Bruno",
-            "Ana Julia",
-            "Nathan",
-            "Henrique",
-            "Eduarda"
-
+            "Power metal",
+            "Metalcore",
+            "Alt-metal",
+            "Black metal",
+            "Aggro-metal",
+            "Dwarf metal",
+            "Goregrind",
+            "Glam metal",
+            "Heavy metal",
+            "Shoegaze"
         ]
-
-
+    },
+    {
+        "pergunta": "Em qual cidade surgiu Slipknot?",
+        "correta": 6 ,
+        "alternativas":[
+            "New York",
+            "Rio de janeiro",
+            "Chicago",
+            "Goiânia",
+            "Massachusetts",
+            "Boston",
+            "Des moines",
+            "Detroit",
+            "Sacramento",
+            "Bakersfield"
+        ]
+    },
+    {
+        "pergunta": "Quantos são os integrantes do Slipknot",
+        "correta": 9 ,
+        "alternativas":[
+            9,
+            6,
+            7,
+            3,
+            5,
+            10,
+            11,
+            2,
+            4,
+            8
+        ]
+    },
+    {
+        "pergunta": "Quem é o vocalista da banda System of a Down",
+        "correta": 2 ,
+        "alternativas":[
+            "Jonathan Davis",
+            "Corey Taylor",
+            "Serj Tankian",
+            "Chino Moreno",
+            "Jordiscleysôn",
+            "Daron Malakian",
+            "Taylor Swift",
+            "Peter Steele",
+            "Till Lindermann",
+            "Playboi Carti"
+        ]
+    },
+    {
+        "pergunta": "O System of a Down acabou?(questão de graça)",
+        "correta": 7 ,
+        "alternativas":[
+            "Sim",
+            "Claro",
+            "Definitivamente",
+            "Talvez",
+            "Óbvio",
+            "Terracota Pie",
+            "Certamente",
+            "Não",
+            "Afirmativo",
+            "WHY DO THEY ALWAYS SEND THE POOR?"
+        ]
+    },
+    {
+        "pergunta": "Quem criou o nome Deftones",
+        "correta": 1 ,
+        "alternativas":[
+            "Frank Delgado",
+            "Stephen Carpenter",
+            "Sergio Vega",
+            "Chi Cheng",
+            "Abe Cunningham",
+            "Limp Bizkit",
+            "Chino Moreno",
+            "John Taylor",
+            "Dominic Garcia",
+            "Capitalismo"
+        ]
+    },
+    {
+        "pergunta": "Qual foi o álbum mais famoso da banda Deftones",
+        "correta": 3 ,
+        "alternativas":[
+            "Saturday Night Wrist",
+            "Deftones",
+            "Ohms",
+            "White Pony",
+            "Koi no Yokan",
+            "Adrenaline",
+            "Diamond Eyes",
+            "Around the fur",
+            "Gore",
+            "Musica para Churrasco, Vol.1"
+        ]
+    },
+    {
+        "pergunta": "Que empresa inspirou o R virado da banda Korn?",
+        "correta": 8 ,
+        "alternativas":[
+            "Mc Donalds",
+            "Subway",
+            "Ikea",
+            "Youtube",
+            "Big",
+            "Best buy",
+            "Hot Topic",
+            "Walmart",
+            "Toys 'R' us",
+            "Sephora"
+        ]
+    },
+    {
+        "pergunta": "Qual foi a música mais problemática da banda Korn?",
+        "correta": 5 ,
+        "alternativas":[
+            "Start the healing",
+            "Children of the Korn",
+            "Falling away from me",
+            "Somebody someone",
+            "Make me bad",
+            "Daddy",
+            "Change(in the house of flies)",
+            "Circle",
+            "B.Y.O.B",
+            "Wake up hate"
+        ]
     }
 ]
