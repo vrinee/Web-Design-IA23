@@ -45,21 +45,26 @@
     <main>
         <div id="quiz">
             <h1>Quiz</h1>
-            <div>
-                <h2 class="pergunta"></h2>
-                <div class="alternativas">
-               <!-- <button>Placeholder</button>
-                    <button>Placeholder</button>
-                    <button>Placeholder</button>
-                    <button>Placeholder</button>
-                    <button>Placeholder</button>
-                    <button>Placeholder</button>
-                    <button>Placeholder</button>
-                    <button>Placeholder</button>
-                    <button>Placeholder</button>
-                    <button>Placeholder</button> -->
-                </div>
-            </div>
+            <h2 class="pergunta"></h2>
+            <div class="alternativas"></div>
+        </div>
+        <div class="fim" id="ruim">
+            <h1>Mais sorte na próxima</h1>
+            <h2>Você conseguiu somente:</h2>
+            <h2 class="porcentagem"></h2>
+            <h2>de acertos</h2>
+            <h3 class="certas">Certas:</h3>
+            <h3 class="erradas">Erradas:</h3>
+            <button class="reset" onclick="window.location.reload()">Reset</button>
+        </div>
+        <div class="fim" id="bom">
+            <h1>Parabéns!!</h1>
+            <h2>Você conseguiu:</h2>
+            <h2 class="porcentagem"></h2>
+            <h2>de acertos</h2>
+            <h3 class="certas">Certas:</h3>
+            <h3 class="erradas">Erradas:</h3>
+            <button class="reset" onclick="window.location.reload()">Reset</button>
         </div>
     </main>
 </body>
