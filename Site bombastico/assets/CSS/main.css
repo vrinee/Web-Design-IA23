@@ -45,9 +45,54 @@ div.front{
     align-self: center;
     justify-self: center;
     grid: none;
+    cursor: pointer;
 }
 /*-----------------------------------*/
 
+/*Easter Egg (modal)*/
+
+.modal{
+    position: fixed;
+    display: grid;
+    place-items: center;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .5);
+    transition: .3s;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 1;
+}
+
+.modal.open {
+    visibility:visible;
+    opacity: 1;
+}
+
+.modal .window {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 50vh;
+    min-width: 40vw;
+    background-image: url("https://i.ytimg.com/vi/nRTITkJreCI/maxresdefault.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 1vw;
+    padding: 1rem;
+}
+
+.modal .window .close {
+    position: absolute;
+    right: -1vw;
+    top: -1vw;
+    border: none;
+    font-size: 1.5rem;
+    height: 4vw;
+    width: 4vw;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
 /*parte principal*/
 
 article#pq {
